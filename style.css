@@ -11,7 +11,8 @@ body {
 
 @media screen and (min-width: 1024px) {
   header {
-    position: static;
+    display: flex;
+    justify-content: center;
     width: 100%;
     height: auto;
     top: 0;
@@ -19,12 +20,15 @@ body {
   }
 
   .page-nav {
-    display: inline-block;
+    display: flex;
     width: 58%;
     text-align: right;
     vertical-align: top;
     padding-top: 8px;
+    display: flex;
+    flex-direction: row;
     margin-bottom: 10px;
+    justify-content: center;
   }
 
   .page-nav a {
@@ -44,18 +48,20 @@ body {
     top: 0;
     width: 20%; 
     height: 100%;
-    background-color: #333;
+    background-color: grey;
     color: white;
     padding: 20px;
   }
 
   .page-nav {
-    display: block;
+    display: flex;
+    flex-direction: column;
     margin-top: 50px;
   }
 
   .page-nav a {
-    display: block;
+    display: flex;
+    flex-direction: column;
     padding: 10px 0;
     color: white;
     text-decoration: none;
