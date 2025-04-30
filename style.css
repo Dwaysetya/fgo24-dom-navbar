@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-color: #ffff;
+}
+
+@media screen and (min-width: 1024px) {
+  header {
+    position: static;
+    width: 100%;
+    height: auto;
+    top: 0;
+    background-color: bisque;
+  }
+
+  .page-nav {
+    display: inline-block;
+    width: 58%;
+    text-align: right;
+    vertical-align: top;
+    padding-top: 8px;
+    margin-bottom: 10px;
+  }
+
+  .page-nav a {
+    text-decoration: none;
+    color: black;
+    padding: 8px 12px;
+    font-size: large;
+  }
+
+  .page-nav a:hover {
+    color: red;
+  }
+}
+@media screen and (max-width: 1024px) {
+  header {
+    position: fixed;
+    top: 0;
+    width: 20%; 
+    height: 100%;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+  }
+
+  .page-nav {
+    display: block;
+    margin-top: 50px;
+  }
+
+  .page-nav a {
+    display: block;
+    padding: 10px 0;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+  }
+
+  .page-nav a:hover {
+    color: red;
+  }
+}
