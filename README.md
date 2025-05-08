@@ -1,17 +1,19 @@
-## Create responsive navbar using basic CSS external
+## Create CSS slicing
 
-This repository contains a project on how to create a responsive navbar, which focuses on documenting the basic HTML and CSS structure for future development. This project aims to learn the use of external CSS and responsiveness.
+This repository contains projects on how to create websites, with a focus on documenting external HTML and CSS structures. This project aims to make all the information about slicing responsive websites attractive using media queries.
 
 ## Preview
 
-![Preview](navbar.png)
+## Result
+
+![Result](/fgo24-css-navbar/images/burger.svg)
 
 ## How to Run this project
 
 1. Clone this project
 
 ```
-git clone   https://github.com/Dwaysetya/fgo24-css-navbar
+git clone    https://github.com/Dwaysetya/fgo24-css-slicing
 ```
 
 2. Enter the project firectory

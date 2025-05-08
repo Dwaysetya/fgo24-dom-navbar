@@ -8,12 +8,38 @@
   </head>
   <body>
     <header>
-      <nav class="page-nav">
-        <a href="/">Home</a>
-        <a href="/About">About</a>
-        <a href="/Process">Process</a>
-        <a href="/Portofolio">Portofolio</a>
+      <nav class="navbar">
+        <h3>
+          <a href="#home">
+            <strong>DWAY</strong><span style="font-weight: 100">setya</span>
+          </a>
+        </h3>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skill">Skill</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="dropdown" id="dropdown">
+          <button type="button" id="hamburger">
+            <img src="./images/burger.svg" alt="burger button" />
+          </button>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skill">Skill</a></li>
+          </ul>
+        </div>
       </nav>
     </header>
+   <script>
+  const hamburgerButton = document.getElementById('hamburger');
+  const dropdownMenu = document.querySelector('.dropdown ul');
+
+  hamburgerButton.addEventListener('click', function () {
+    dropdownMenu.classList.toggle('show');
+  });
+</script>
+
   </body>
 </html>
