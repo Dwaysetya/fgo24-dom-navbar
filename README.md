@@ -1,19 +1,20 @@
-## Create CSS slicing
+## Create DOM for create navbar burger
 
-This repository contains projects on how to create websites, with a focus on documenting external HTML and CSS structures. This project aims to make all the information about slicing responsive websites attractive using media queries.
+This repository contains projects on how to create a burger navbar with DOM manipulation by implementing it in html and javascript code, with a focus on documenting the HTML structure, external CSS and DOM manipulation. This project aims to create all the information about using DOM for burger navbar.
 
 ## Preview
 
 ## Result
 
-![Result](/fgo24-css-navbar/images/burger.svg)
+![Result](./images/Screenshot%202025-05-08%20at%2011.18.23.png)
 
 ## How to Run this project
 
 1. Clone this project
 
 ```
-git clone    https://github.com/Dwaysetya/fgo24-css-slicing
+git clone    git clone https://github.com/Dwaysetya/fgo24-dom-navbar.git
+
 ```
 
 2. Enter the project firectory
